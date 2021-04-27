@@ -5,12 +5,14 @@
     align-items: center;
     align-content: center;
     height: 60px;
+    /* align-self: center; */
 }
 
 .menu a{
     text-decoration: none;
     font-size: 1.2em;
     margin: 0 4px;
+    color: white;
 }
 
 .menu li{

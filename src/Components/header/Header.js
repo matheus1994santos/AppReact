@@ -1,12 +1,14 @@
 import React from 'react';
 import './Header.css';
 import Button from '../buttom/Button';
+import Logo from '../logo/logo';
 
 const Header = () => {
   return ( 
     <>
     <header className="top-header">
-    <Button/>
+      <Logo/>
+        <Button/>
     </header>
     </>
   )
