@@ -1,0 +1,11 @@
+.artigo1{
+    flex: 1;
+    padding: 0 2%;
+    margin: 4px 0; 
+    text-align: justify;
+    min-width: 269px;
+}
+
+.artigo1 p{
+  
+}

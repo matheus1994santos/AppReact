@@ -4,7 +4,7 @@ import './logo.css';
 const Logo = () => {
   return ( 
     <>
-        <h1 className="logo">Noronha DEV</h1>
+        <h1 className="logo">Planarauto</h1>
     </>
   )
 }
