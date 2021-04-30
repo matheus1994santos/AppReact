@@ -1,7 +1,7 @@
 .banner1{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 0 4%;
     height: 25px;
     background: hsla(294, 100%, 55%, 1);
