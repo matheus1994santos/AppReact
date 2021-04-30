@@ -16,7 +16,7 @@ const interval = setInterval(() => {
   const dataHora = zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds());
 
   // Exibe na tela usando a div#data-hora
-  document.getElementById('ban2').innerHTML = dataHora;
+  document.getElementById('ban2').innerHTML = 'Horário: ' + dataHora;
 }, 1000);
 
 const Banner1 = () => {
@@ -24,13 +24,13 @@ const Banner1 = () => {
   return ( 
     <>
         <div className="banner1">
-            <p>
-             Lopés
+            <p id="ban1">
+              Itabuna
             </p>
-            <p>
-              <p id="ban2"></p>
+            <p id="ban2">
+              
             </p>
-            <p>
+            <p id="ban3">
                 Estamos aqui por você confira nossas novidades!!
             </p>
         </div>

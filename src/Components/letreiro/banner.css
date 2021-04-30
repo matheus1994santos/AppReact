@@ -3,16 +3,22 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 4%;
-    height: 25px;
-    background: hsla(294, 100%, 55%, 1);
-    background: linear-gradient(90deg, hsla(294, 100%, 55%, 0.6) 27%, hsla(339, 100%, 55%, 0.7) 74%);
-    background: -moz-linear-gradient(90deg, hsla(294, 100%, 55%, 0.6) 27%, hsla(339, 100%, 55%, 0.7) 74%);
-    background: -webkit-linear-gradient(90deg, hsla(294, 100%, 55%, 0.6) 27%, hsla(339, 100%, 55%, 0.7) 74%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#E81CFF", endColorstr="#FF1B6B", GradientType=1 );
+    height: 30px;
+    background: hsla(217, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 100%, hsla(186, 100%, 69%, 0.3) 100%);
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 100%, hsla(186, 100%, 69%, 0.3) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 100%, hsla(186, 100%, 69%, 0.3) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1 );
 }
 
 .banner1 p{
     display: inline-block;
     color: snow;
     padding: 0 2%;
+    font-size: 15px;
+    flex: 1;
+}
+
+.banner1 p#ban1{
+
 }
