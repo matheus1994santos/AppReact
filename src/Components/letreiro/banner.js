@@ -12,20 +12,20 @@ const interval = setInterval(() => {
   // Pega o horário atual
   const now = new Date();
 
-  // Formata a data conforme dd/mm/aaaa hh:ii:ss
+  // Formata a data hh:ii:ss
   const dataHora = zeroFill(now.getHours()) + ':' + zeroFill(now.getMinutes()) + ':' + zeroFill(now.getSeconds());
 
-  // Exibe na tela usando a div#data-hora
-  document.getElementById('ban2').innerHTML = 'Horário: ' + dataHora;
+  // Exibe na tela 
+  document.getElementById('ban1').innerHTML = 'Horário: ' + dataHora;
 }, 1000);
 
 const Banner1 = () => {
-  // const data = new Date();
+
   return ( 
     <>
         <div className="banner1">
             <p id="ban1">
-              Itabuna
+              
             </p>
             <p id="ban2">
               

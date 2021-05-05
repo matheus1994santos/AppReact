@@ -11,7 +11,7 @@ const App = () => {
     <Banner1/>
     <Header/>
     <Section1/>
-    <Section2/>
+    {/* <Section2/> */}
     </>
   )
 }
