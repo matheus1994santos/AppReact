@@ -10,6 +10,19 @@ import PinkBtn from '../buttom/Quadrado/01pink';
 import YellowBtn from '../buttom/Quadrado/01yellow';
 import VioletBtn from '../buttom/Quadrado/01violet';
 import PurpleBtn from '../buttom/Quadrado/01purple';
+import Btn02 from '../buttom/Quadrado/02btn'
+
+import GreenBtnS from '../buttom/QuadShadow/01green'
+import RedBtnS from '../buttom/QuadShadow/01red';
+import BlackBtnS from '../buttom/QuadShadow/01black';
+import GrayBtnS from '../buttom/QuadShadow/01gray';
+import BlueBtnS from '../buttom/QuadShadow/01blue';
+import BrownBtnS from '../buttom/QuadShadow/01brown';
+import PinkBtnS from '../buttom/QuadShadow/01pink';
+import YellowBtnS from '../buttom/QuadShadow/01yellow';
+import VioletBtnS from '../buttom/QuadShadow/01violet';
+import PurpleBtnS from '../buttom/QuadShadow/01purple';
+
 
 const Articles1 = () => {
   return ( 
@@ -46,7 +59,22 @@ const Articles1 = () => {
                   <VioletBtn/>
                   <PurpleBtn/>
                 </div>
-               
+
+                <div>
+                  <RedBtnS/>
+                  <GreenBtnS/>
+                  <BlackBtnS/>
+                  <GrayBtnS/>
+                  <BlueBtnS/>
+                </div>
+
+                <div>
+                  <BrownBtnS/>
+                  <PinkBtnS/>
+                  <YellowBtnS/>
+                  <VioletBtnS/>
+                  <PurpleBtnS/>
+                </div>                
               </div>
             </div>    
 
