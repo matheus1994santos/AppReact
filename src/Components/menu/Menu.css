@@ -1,0 +1,23 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    height: 60px;
+    /* align-self: center; */
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 4px;
+    color: white;
+}
+
+.menu li{
+   list-style-type: none;
+}
+
+.menu li:hover{
+    border-bottom: 1px solid white;
+}

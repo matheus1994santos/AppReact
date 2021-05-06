@@ -1,0 +1,34 @@
+div.box-flex{
+    display: flex;
+    align-content: center;
+    background-color: aqua;
+}
+
+div.artigo1{
+    display: flex;
+    background-color: red;
+    margin: auto;
+}
+
+div.tela { 
+    display: flex; width: 400px; height: 400px; 
+    background-color: white; margin: auto; flex-direction: column;
+    align-items: center; border-radius: 22px 22px;}
+
+div.tela span.titulo { font-size: 1.5em; margin: auto; font-weight: bold; }
+
+div.tela span.simb {  font-size: 1.5em; margin: auto;}
+
+div.tela span.print { 
+    color: black; font-size: 1.5em;
+    margin: auto auto 30px auto; min-width: 170px; height: 30px; 
+    border: 1px solid white; text-align: center;
+    font-weight: bold;
+    border-radius: 16px 16px; border: 1px solid #ccc;}
+
+div.tela input[type=text]{  
+    width: 170px; height: 40px; 
+    text-align: center; 
+    border-radius: 16px 16px;
+    border: 1px solid #ccc;
+    outline: none;}

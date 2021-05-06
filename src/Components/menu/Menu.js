@@ -1,7 +1,7 @@
 import React from 'react';
-import './Button.css';
+import './Menu.css';
 
-const Button = () => {
+const Menu = () => {
   return ( 
     <>
     <ul className="menu">
@@ -15,4 +15,4 @@ const Button = () => {
     
 
 
-export default Button;
+export default Menu;

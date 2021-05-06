@@ -1,0 +1,21 @@
+.btn00 {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.Green   {background-color: #4CAF50; color: white;} /* Green */
+.Blue    {background-color: #008CBA; color: white;} /* Blue */
+.Red     {background-color: #f44336; color: white;} /* Red */ 
+.Gray    {background-color: #a5a5a5; color: black;} /* Gray */ 
+.Black   {background-color: #1b1b1b; color: white;} /* Black */
+.Brown   {background-color: #4B3621; color: white;} /* Green */
+.Pink    {background-color: #FF007F; color: white;} /* Blue */
+.Yellow  {background-color: #FFFF00; color: white;} /* Red */ 
+.Violet  {background-color: #ee82ee; color: black;} /* Gray */ 
+.Purple  {background-color: #9400D3; color: white;} /* Black */

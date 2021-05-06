@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import Button from '../buttom/Button';
+import Menu from '../menu/Menu';
 import Logo from '../logo/logo';
 
 
@@ -9,7 +9,7 @@ const Header = () => {
     <>
     <header className="top-header">
       <Logo/>
-        <Button/>
+        <Menu/>
     </header>
     </>
   )

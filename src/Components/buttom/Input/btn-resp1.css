@@ -1,0 +1,9 @@
+div.tela input.btn-res{ 
+    background: linear-gradient(0deg, rgba(181,178,173,1) 4%,
+            rgba(211,218,217,1) 41%, rgba(215,224,224,1) 49%,
+             rgba(212,219,219,1) 61%);  
+    margin: auto; font-size: 1.6em;
+    width: 170px; height: 40px;  font-weight: 700; text-align: center;
+    border-radius: 16px 16px;
+    border: 1px solid #ccc;
+    cursor: pointer; outline: none;}
